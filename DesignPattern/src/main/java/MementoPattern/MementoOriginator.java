@@ -16,11 +16,16 @@ public class MementoOriginator //组织者类
 
     public MementoFile saveMementoFile()//保存备忘录
     {
-        return new MementoFile(mementoInfo.getContent());
+        return new MementoFile(mementoInfo.getHP(),mementoInfo.getMP(),
+                mementoInfo.getArmorLevel(),mementoInfo.getWeaponLevel());
     }
 
-    public void getMemento(MementoFile mementoFile)//获取备忘录
+    public void getMemento(MementoFile mementoFile)//获取备忘录内容
     {
-        this.mementoInfo=mementoFile.getMementoInfo();
+        this.mementoInfo=new MementoInfo();
+        mementoInfo.setHP(mementoFile.getMementoInfo().getHP());
+        mementoInfo.setMP(mementoFile.getMementoInfo().getMP());
+        mementoInfo.setArmorLevel(mementoFile.getMementoInfo().getArmorLevel());
+        mementoInfo.setWeaponLevel(mementoFile.getMementoInfo().getWeaponLevel());
     }
 }
