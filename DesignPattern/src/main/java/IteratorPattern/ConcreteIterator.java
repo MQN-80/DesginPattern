@@ -41,6 +41,26 @@ public class ConcreteIterator implements Iterator//具体迭代器
         return obj;
     }
 
+    public Object next1() {
+        Object obj=null;
+        if(this.hasNext())
+        {
+            obj=list.get(index+1);
+        }
+        return obj;
+    }
+
+    public Object prev(){
+        Object obj=null;
+        obj=list.get(--index);
+        return obj;
+    }
+
+    public Object now()
+    {
+        return list.get(index);
+    }
+
     public boolean remove()
     {
         if(index<list.size()-1)
