@@ -5,6 +5,7 @@ ObserverPattern\Car.class
 ProxyPattern\MeiTuan.class
 ProxyPattern\ProxyClient.class
 BlackBoardPattern\NoticeSource.class
+RegistryPattern\Registry.class
 ProxyPattern\FoodDeliverd.class
 DecoratePattern\HamburgerDecotator.class
 ObserverPattern\CarPark.class
@@ -16,9 +17,11 @@ BlackBoardPattern\BulletinBoard.class
 BlackBoardPattern\Blackboard.class
 DecoratePattern\lettuceDecotator.class
 DecoratePattern\MeatDecorator.class
+RegistryPattern\Map.class
 MementoPattern\Player.class
 DecoratePattern\Decorator.class
 ProxyPattern\Restaurant.class
+RegistryPattern\Test.class
 BlackBoardPattern\Control.class
 ObserverPattern\Car$park.class
 DependencyInjectionPattern\User.class
