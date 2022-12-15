@@ -6,14 +6,13 @@ public class BulletinBoard
     {
         Blackboard blackboard = new Blackboard();
         Control control = new Control(blackboard);
-        control.nextSource("主题活动   开放时间");
-        control.nextSource("电影放映   12:00~14:00");
-        control.nextSource("刺激射击   18:00~22:00");
-        control.nextSource("浪漫花车   18:00~22:00");
-        control.nextSource("天真木马   18:00~22:00");
-        control.nextSource("精彩烟花   18:00~22:00");
-        control.nextSource("今日游乐园设施一切正常，敬请期待！");
-        control.nextSource("今日游乐园KCF餐厅推出新产品！");
+        control.nextSource("各设施     开放时间");
+        control.nextSource("售货机     全天开放");
+        control.nextSource("纯K       6:00-24:00");
+        control.nextSource("电影院     全天开放");
+        control.nextSource("游戏厅     10:00-22:00");
+        control.nextSource("电脑店     12:00~18:00");
+        control.nextSource("今日五角场KCF餐厅限时折扣！欢迎前来品尝");
         control.loopNonPrint();
         blackboard.Print();
     }
