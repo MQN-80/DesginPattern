@@ -76,11 +76,10 @@ public class Player {
                     break;
                 }
                 case 5:{
+                    judge=false;
                     break;
                 }
             }
-            if(choice==5)
-                break;
         }
     }
 }
