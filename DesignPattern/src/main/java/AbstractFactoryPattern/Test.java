@@ -3,14 +3,16 @@ package AbstractFactoryPattern;
 public class Test {
     public static void main(String[] args) {
         System.out.println("KFC抽象工厂测试!");
-        KFCabstractFactory kfc =new KFCabstractFactory();
+        KFCFactoryProducer kfc =new KFCFactoryProducer();
 
         System.out.println("创建食物制作工厂...");
-        kfc.getMake("Cola").make();
-        kfc.getMake("Hamburger").make();
+        AbstarctFactory MK=kfc.getFactory("Make");
+        MK.getMake("Cola").make();
+        MK.getMake("Hamburger").make();
 
         System.out.println("创建送餐工厂...");
-        kfc.getGive("Cola").give();
-        kfc.getGive("Hamburger").give();
+        AbstarctFactory GV=kfc.getFactory("Give");
+        GV.getGive("Cola").give();
+        GV.getGive("Hamburger").give();
     }
 }
