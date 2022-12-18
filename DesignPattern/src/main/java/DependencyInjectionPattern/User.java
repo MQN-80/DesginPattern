@@ -88,12 +88,11 @@ public class User {
                     break;
                 }
                 default:{
+                    judge=false;
                     System.out.println("操作失败！回到主界面\n");
                     break;
                 }
             }
-            if(a==5)
-                break;
         }
     }
 }
