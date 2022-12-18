@@ -1,6 +1,6 @@
 package Builderpattern;
 
-public class Client {
+public class BuildClient {
     public static void main(String[] args) {
         //导向器
         Director director = new Director();

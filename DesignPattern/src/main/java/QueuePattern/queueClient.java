@@ -3,7 +3,7 @@ package QueuePattern;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Test {
+public class queueClient {
     public static void main(String[] args) {
         List<Message> abc=new ArrayList<>();
         Message one=new Message("五角场盛大开业！");

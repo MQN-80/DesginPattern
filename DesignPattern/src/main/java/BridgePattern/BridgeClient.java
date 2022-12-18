@@ -1,6 +1,6 @@
 package BridgePattern;
 
-public class Client {
+public class BridgeClient {
     public static void main(String[] args) {
         System.out.println("客人A想喝大杯正常糖的芋泥波波奶茶");
         KissTea teaA = new KissTea(new Large(),new Normal());

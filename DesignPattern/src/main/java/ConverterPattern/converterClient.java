@@ -1,6 +1,6 @@
 package ConverterPattern;
 
-public class Test {
+public class converterClient {
     public static void main(String[] args) {
         Visitor vi =new Visitor();
 

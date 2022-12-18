@@ -1,6 +1,6 @@
 package ObserverPattern;
 
-public class Test {
+public class observerClient {
     public static void main(String[] args) {
 
         Car subject = new Car();

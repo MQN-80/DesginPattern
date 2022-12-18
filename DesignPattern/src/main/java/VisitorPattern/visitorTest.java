@@ -1,6 +1,6 @@
 package VisitorPattern;
 
-public class Test {
+public class visitorTest {
     public static void main(String[] args) {
         Medicine a = new MedicineA("连花清瘟", 64.8);
         Medicine b = new MedicineB("999感冒灵", 12.8);

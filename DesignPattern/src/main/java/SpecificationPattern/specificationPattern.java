@@ -3,7 +3,7 @@ package SpecificationPattern;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Test {
+public class specificationPattern {
     public static void main(String[] args){
         List<clothes> clothesList=new ArrayList<clothes>();
         clothesList.add(new clothes().addTag("男款").addTag("上衣").addTag("衬衫").addTag("L码"));

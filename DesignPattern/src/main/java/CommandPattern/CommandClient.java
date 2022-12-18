@@ -1,6 +1,6 @@
 package CommandPattern;
 
-public class Test {
+public class CommandClient {
     public static void main(String[] args) {
 
         //创建汉堡的对象(接受者)

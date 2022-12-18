@@ -1,6 +1,6 @@
 package NullObjectPattern;
 
-public class Test {
+public class nullClient {
     public static void main(String[] args){
         AbstractStaff staff1 = StaffFactory.getStaff("张三");
         AbstractStaff staff2 = StaffFactory.getStaff("赵六");

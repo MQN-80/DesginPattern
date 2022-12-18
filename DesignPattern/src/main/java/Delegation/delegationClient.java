@@ -1,6 +1,6 @@
 package Delegation;
 
-public class Test {
+public class delegationClient {
     public static void main(String[] args) {
 
         Account account=new Account();

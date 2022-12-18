@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class Test {
+public class iteratorClient {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Map<Integer, String> List = new HashMap<>();

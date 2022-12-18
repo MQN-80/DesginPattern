@@ -2,7 +2,7 @@ package DependencyInjectionPattern;
 
 import java.util.Scanner;
 
-public class User {
+public class injectionClient {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
         VendingMachine vendingMachine=new VendingMachine();

@@ -1,6 +1,6 @@
 package InterpreterPattern;
 
-public class Test {
+public class interpreterClient {
     //规则：可以询问Banlie,natursun,adidas在哪
     public static Expression whereExpression(){
         Expression Banlie = new TerminalExpression("Banlie");

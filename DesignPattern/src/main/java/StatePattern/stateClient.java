@@ -1,6 +1,6 @@
 package StatePattern;
 
-public class Client {
+public class stateClient {
     public static void main(String[] args) {
         Context context = new Context(); //创建环境
         context.Handle(); //处理请求

@@ -1,6 +1,6 @@
 package FlyweightPattern;
 
-public class Test {
+public class flyweightClient {
     public static void main(String[] args) {
         System.out.println("享元模式测试：");
 

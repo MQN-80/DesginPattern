@@ -1,6 +1,6 @@
 package CompositePattern;
 
-public class Test {
+public class CompositeClient {
     public static void main(String[] args) {
         Company suNing = new Company("Su Ning");
         Department market = new Department("market");

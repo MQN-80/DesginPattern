@@ -2,7 +2,7 @@ package RegistryPattern;
 
 
 
-public class Test {
+public class registyPattern {
     public static void main(String[] args) {
         Map map=new Map();
         map.printMap();

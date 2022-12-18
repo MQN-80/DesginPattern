@@ -1,6 +1,6 @@
 package ProtoPattern;
 
-public class Test {
+public class protoClient {
     public static void main(String[] args) throws CloneNotSupportedException {
         for(int i=1;i<6;i++)
         {

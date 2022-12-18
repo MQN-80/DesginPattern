@@ -1,6 +1,6 @@
 package FactoryPattern;
 
-public class Test {
+public class factoryClient {
     public static void main(String[] args) {
         System.out.println("KFC食物工厂测试!");
         KFCFactory factory=new KFCFactory();

@@ -1,6 +1,6 @@
 package ChainofResponsibilityPattern;
 
-public class Test {
+public class ChainoClient {
     public static void main(String[] args){
         ActorHandler h1=new ActorHandler();
         CashierHandler h2=new CashierHandler();

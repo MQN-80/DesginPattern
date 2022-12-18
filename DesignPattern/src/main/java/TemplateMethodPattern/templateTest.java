@@ -2,7 +2,7 @@ package TemplateMethodPattern;
 
 import java.util.Scanner;
 
-public class Test {
+public class templateTest {
     public static void main(String[] args) {
         System.out.println("欢迎光临五角场金拱门, 请选择您要的汉堡");
         Scanner input = new Scanner(System.in);
